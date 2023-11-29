@@ -7,6 +7,8 @@
     <title>Detail Buku</title>
     <!-- link ke CSS -->
     <link rel="stylesheet" href="css/style.css">
+     <!--Link Bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
     <!--Box Icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -30,35 +32,50 @@
     <body>
         <!--Header-->
         <header>
-            <a href="index.html" class="logo"><img src="img/logo_img.png" alt=""></a>
-            
-            <!-- <div class="bx bx-menu" id="menu-icon"></div> -->
-            <ul class="navbar">
-                <li><a href="index.html">Beranda</a></li>
-                <li><a href="news.html">Berita</a></li>
-                <li><a href="#profile">Profile</a></li>
-                <li><a href="contact.html">Kontak</a></li>
-            </ul>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a href="index.html" class="logo"><img src="img/logo_img.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="news.html">Berita</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kontak</a>
+                      </li>
+                    </ul>
+                  </div>
+               </div>
+              </nav>
         </header>
-    </header>
     <!--Post Content-->
     <section class="post-header">
         <div class="header-content post-container">
             <!--Title-->
-            <h1 class="header-title">How To Create Best UX Design With Adobe Xd</h1>
+            <h1 class="header-title">Metaverse Intermediate</h1>
             <!--Post Image-->
             <img src="img/post-1.jpg" alt="" class="header-img">
         </div>
     </section>
      <!--Posts-->
      <section class="post-content post-container">
-        <h2 class="sub-heading">Create Best UX Design</h2>
-        <p class="post-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, eaque quia nostrum voluptas hic cumque consequuntur ullam blanditiis ducimus placeat ipsa dolor doloremque, fugit, sunt commodi. Quidem eveniet velit voluptates.</p>
-        <p class="post-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, eaque quia nostrum voluptas hic cumque consequuntur ullam blanditiis ducimus placeat ipsa dolor doloremque, fugit, sunt commodi. Quidem eveniet velit voluptates.</p>
-        <h2 class="sub-heading">Create Best UX Design</h2>
-        <p class="post-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, eaque quia nostrum voluptas hic cumque consequuntur ullam blanditiis ducimus placeat ipsa dolor doloremque, fugit, sunt commodi. Quidem eveniet velit voluptates.</p>
-        <p class="post-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, eaque quia nostrum voluptas hic cumque consequuntur ullam blanditiis ducimus placeat ipsa dolor doloremque, fugit, sunt commodi. Quidem eveniet velit voluptates.</p>
-        <p class="post-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, eaque quia nostrum voluptas hic cumque consequuntur ullam blanditiis ducimus placeat ipsa dolor doloremque, fugit, sunt commodi. Quidem eveniet velit voluptates.</p> 
+        <h2 class="sub-heading">Apa itu Metaverse?</h2>
+        <p class="post-text">Teknologi Metaverse atau Metasemesta menjadi topik yang sedang banyak diperbincangkan di seluruh dunia. Metaverse adalah teknologi digital yang mampu menciptakan dunia virtual 3D dengan memanfaatkan teknologi Augmented Reality (AR) 
+            dan Virtual Reality (VR), dimana penggunanya dapat seolah-olah berinteraksi secara nyata dalam dunia virtual. </p>
+        <!-- <p class="post-text">Metaverse sebagai sebuah media baru tentu memiliki potensi yang sangat luas untuk masa depan, 
+            walaupun media ini belum dapat dimanfaatkan sepenuhnya.</p> -->
+        <h2 class="sub-heading">Sejarah Metaverse</h2>
+        <p class="post-text">Istilah ini pertama kali diungkapkan dalam novel fiksi ilmiah Neal Stephenson tahun 1992, Snow Crash, di mana manusia, sebagai avatar, berinteraksi satu sama lain dan agen perangkat lunak, dalam ruang virtual tiga dimensi yang menggunakan metafora dunia nyata.</p>
+        <p class="post-text">Konsep dunia maya, yang pertama kali muncul dalam cerita pendek Burning Chrome oleh William Gibson (Omni, Juli 1982), adalah tema utama dalam novelnya yang inovatif tahun 1984, Neuromancer.</p>
     </section> 
     <!--Share-->
     <div class="share post-container">
