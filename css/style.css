@@ -52,7 +52,7 @@ html::-webkit-scrollbar-thumb {
     background: var(--container-color);
     border-radius: 5rem;
 }
-header {
+/* header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -63,11 +63,11 @@ header {
     justify-content: space-between;
     background: #eeeff1;
     padding: 10px 100px;
-}
+} */
 .logo img {
     width: 150px;
 }
-.navbar {
+/* .navbar {
     display: flex;
 }
 .navbar li {
@@ -91,7 +91,7 @@ header {
 }
 .navbar a:hover::after {
     width: 100%;
-}
+} */
 
 /* header {
     position: fixed;

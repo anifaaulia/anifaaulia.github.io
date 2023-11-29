@@ -228,7 +228,8 @@ textarea::-webkit-scrollbar-thumb{
 
 	<!-- *******  Font Awesome Icons Link  ******* -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-
+	<!--Link Bootstrap-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
 	<!-- *******  Link To Goggle Fonts  *******  -->
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
 
@@ -237,16 +238,32 @@ textarea::-webkit-scrollbar-thumb{
 	<title>Pintar Baca | Kontak</title>
 	<link rel="icon" href="img/img0.png" type="image/x-icon">
 </head>
+<!--Header-->
 <header>
-	<a href="index.html" class="logo"><img src="img/logo_img.png" alt=""></a>
-	
-	<!-- <div class="bx bx-menu" id="menu-icon"></div> -->
-	<ul class="navbar">
-		<li><a href="index.html">Beranda</a></li>
-		<li><a href="news.html">Berita</a></li>
-		<li><a href="profile.html">Profile</a></li>
-		<li><a href="contact.html">Kontak</a></li>
-	</ul>
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+			<a href="index.html" class="logo"><img src="img/logo_img.png" alt=""></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="news.html">Berita</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="profile.html">Profile</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="contact.html">Kontak</a>
+			  </li>
+			</ul>
+		  </div>
+	   </div>
+	  </nav>
 </header>
 <body>
 	<div class="container">
@@ -326,5 +343,16 @@ textarea::-webkit-scrollbar-thumb{
 			</section>
 		</main>
 	</div>
+	
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- JQuery Link -->
+    <script 
+    src="https://code.jquery.com/jquery-3.7.1.js" 
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+    crossorigin="anonymous"></script>
+
+    <!--Link to JS-->
+    <script src="js/main.js"></script>
+
 </body>
 </html>
